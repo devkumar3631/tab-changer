@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+
+     <!-- meta tags -->
+    <meta name="description" content="sports tab changer">
+    <meta name="keywords" content="website, HTML, CSS">
+    <meta name="author" content="dev kumar">
+     
+    <!-- meta og tag -->
+    <meta property="og:description" content="tab changer made with html , js and css">
+    <meta property="og:title" content="sports tab changer">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="images/running.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><button id="first"  class="active" type="button">running</button></li>
+                <li><button id="second" type="button">cycling</button></li>
+                <li><button id="third" type="button">swimming</button></li>
+                <li><button id="fourth" type="button">climbing</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="first_tab" >
+            <p>Running is a method of terrestrial locomotion where humans or animals move quickly on foot, characterized by an "aerial phase" where both feet are off the ground. It is a sport, a fitness activity, or a form of rapid transport.</p>
+            <img src="images/running.jpg" alt="running">
+             <p>The 80/20 rule is simple. It states that you should spend 80% of your training time running at an easy, conversational pace, and the other 20% at a moderate to hard intensity.</p>
+        </div>
+        <div id="second_tab" class="hidden">
+             <p>Cycling is mainly an aerobic activity, which means that your heart, blood vessels and lungs all get a workout. You will breathe deeper, perspire and experience increased body temperature, which will improve your overall fitness level.</p>
+           
+            <img src="images/cycling.jpg" alt="cycling">
+            <p>The health benefits of regular cycling include: increased cardiovascular fitness.</p>
+        </div>
+        <div id="third_tab" class="hidden">
+            <p>Swimming is the self-propulsion of a body through water, combining arm/leg motions with natural buoyancy for recreation, sport, exercise, or survival. It offers a low-impact, full-body workout that improves cardiovascular health, strength, and flexibility, often used for rehabilitation.</p>
+            <img src="images/swimming.jpg" alt="swimming">
+            <p>Key styles include freestyle, breaststroke, backstroke, and butterfly</p>
+        </div>
+        <div id="fourth_tab" class="hidden">
+            <p>Climbing, as a noun, refers to the sport or activity of ascending steep objects like rocks, mountains, or walls, often using hands and feet. It also acts as an adjective for things growing upward (e.g., "climbing roses") or as a verb meaning to move upward, increase in intensity, or ascend</p>
+            <img src="images/climbing.jpg" alt="climbing">
+            <p>There are three main types of roped climbing: autobelay, top rope, and lead climbing</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
